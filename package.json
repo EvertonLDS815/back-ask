@@ -1,0 +1,20 @@
+{
+  "name": "back-ask",
+  "version": "1.0.0",
+  "description": "Uma API para uma aplicação de perguntas e respostas (quiz)",
+  "main": "index.js",
+  "repository": "https://github.com/EvertonLDS815/back-ask.git",
+  "author": "Everton Lino",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9"
+  }
+}
