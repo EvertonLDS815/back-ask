@@ -22,7 +22,7 @@ const questionSchema = new mongoose.Schema({
 app.use(express.json());
 app.use(cors());
 
-const Question = mongoose.model('question', questionSchema);
+const Question = mongoose.model('abc', questionSchema);
 
 app.get('/questions', async (req, res) => {
     const question = await Question.find();
